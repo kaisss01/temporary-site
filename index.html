@@ -3,46 +3,92 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Montage PC - Service Gamer</title>
+    <title>Montage PC Gamer - Service Professionnel</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Bienvenue sur notre service de montage PC pour gamers !</h1>
+        <div class="logo">Montage PC Gamer</div>
         <nav>
             <ul>
-                <li><a href="#services">Services</a></li>
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#services">Nos Services</a></li>
+                <li><a href="#tarifs">Tarifs</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
-
+    
+    <section id="accueil" class="hero">
+        <h1>Spécialiste en montage de PC Gamer</h1>
+        <p>Un service professionnel pour assembler votre PC de rêve avec un câblage parfait et une installation complète.</p>
+        <a href="#services" class="cta-button">Voir nos services</a>
+    </section>
+    
     <section id="services">
         <h2>Nos Services</h2>
-        <p>Nous proposons le montage d'ordinateurs, l'installation d'OS (Windows 11) et de logiciels.</p>
-        <p>Nous nous chargeons aussi du câble management pour un PC propre et bien optimisé.</p>
-        <a href="#contact" class="cta-button">Contactez-nous pour commander !</a>
+        <div class="service-box">
+            <h3>Montage de PC</h3>
+            <p>Assemblage soigné de vos composants pour un maximum de performance et de fiabilité.</p>
+        </div>
+        <div class="service-box">
+            <h3>Gestion des câbles</h3>
+            <p>Un câble management propre et optimisé pour un flux d'air parfait et un design épuré.</p>
+        </div>
+        <div class="service-box">
+            <h3>Installation d'OS</h3>
+            <p>Installation et activation de Windows 11 avec mise à jour des pilotes et optimisations.</p>
+        </div>
+        <div class="service-box">
+            <h3>Installation de logiciels</h3>
+            <p>Installation des logiciels essentiels (antivirus, navigateurs, outils de gaming, etc.).</p>
+        </div>
     </section>
-
+    
+    <section id="tarifs">
+        <h2>Nos Tarifs</h2>
+        <table>
+            <tr>
+                <th>Service</th>
+                <th>Prix</th>
+            </tr>
+            <tr>
+                <td>Montage de PC</td>
+                <td>50€</td>
+            </tr>
+            <tr>
+                <td>Gestion des câbles</td>
+                <td>20€</td>
+            </tr>
+            <tr>
+                <td>Installation d'OS</td>
+                <td>30€</td>
+            </tr>
+            <tr>
+                <td>Installation de logiciels</td>
+                <td>15€</td>
+            </tr>
+        </table>
+    </section>
+    
     <section id="contact">
-        <h2>Contact</h2>
-        <p>Pour toute demande, contactez-nous via ce formulaire :</p>
-        <form action="votre_script_php" method="post">
+        <h2>Contactez-nous</h2>
+        <form action="#" method="post">
             <label for="name">Nom :</label>
             <input type="text" id="name" name="name" required>
-
+            
             <label for="email">Email :</label>
             <input type="email" id="email" name="email" required>
-
+            
             <label for="message">Message :</label>
             <textarea id="message" name="message" required></textarea>
-
+            
             <button type="submit">Envoyer</button>
         </form>
     </section>
-
+    
     <footer>
-        <p>&copy; 2025 Montage PC Service</p>
+        <p>&copy; 2025 Montage PC Gamer - Tous droits réservés.</p>
     </footer>
 </body>
 </html>
